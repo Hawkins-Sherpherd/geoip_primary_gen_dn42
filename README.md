@@ -8,3 +8,5 @@ Generate primary geoip data from dn42 registry for NextTrace
 * It outputs geoip_primary.csv
 * Do whatever you want to geoip_primary.csv, the data inside is ordered in this way per row:
   * IP_CDIR,LtdCode,ISO3166-2,CityName,ASN,IPWhois(Netname)
+# Too lazy to generate your own
+Get full geofeed.csv here: https://github.com/Hawkins-Sherpherd/geoip_manual_dn42/releases
