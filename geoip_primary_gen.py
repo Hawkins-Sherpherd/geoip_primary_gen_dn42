@@ -163,8 +163,6 @@ def generate_geoip_list(inetnum,as_info):
         line[3] = ''
         line[4] = ','.join(routes[subnet_supernet_keys[i]][0])
         line[5] = ','.join(inetnums[subnet_supernet_map[subnet_supernet_keys[i]]][1])
-        with open('debug_geoip_list_line','a') as debug:
-            print(line,file=debug)
         geoip_list.append(line)
     return geoip_list
 
